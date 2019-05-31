@@ -1,11 +1,21 @@
 {
 	"name": "gfw-area-notifications",
-	"endpoints": [{
-		"path": "/v1/area-notifications/hi",
-		"method": "GET",
-		"redirect": {
+	"endpoints": [
+		{
+			"path": "/v1/area-notifications/created",
 			"method": "GET",
-			"path": "/api/v1/area-notifications/hi"
+			"redirect": {
+				"method": "GET",
+				"path": "/api/v1/area-notifications/created"
+			}
+		},
+		{
+			"path": "/v1/area-notifications/updated",
+			"method": "GET",
+			"redirect": {
+				"method": "GET",
+				"path": "/api/v1/area-notifications/updated"
+			}
 		}
-	}]
+	]
 }
