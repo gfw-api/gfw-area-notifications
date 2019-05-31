@@ -4,7 +4,7 @@ services:
     build: .
     ports:
       - "3005:3005"
-    container_name: node-skeleton
+    container_name: gfw-area-notifications
     env_file:
       - dev.env
     environment:
@@ -15,4 +15,4 @@ services:
       API_VERSION: v1
     command: develop
     volumes:
-      - ./app:/opt/node-skeleton/app
+      - ./app:/opt/gfw-area-notifications/app

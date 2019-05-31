@@ -1,26 +1,4 @@
-# Node Skeleton Microservice - Usage instructions
-
-This repository is the node skeleton microservice to create node microservice for WRI API
-
-## Getting Started
-
-- Rename `service.sh` to match your microservice name.
-- Update `CC_TEST_REPORTER_ID` in `.travis.yml` with a specific key for your project.
-- Update `package.json` with your microservice's name, description and other details
-- Update the multiple `docker-compose` files and replace `node-skeleton` with names that match your microservice. 
-- Update the `name` in `app/microserivce/register.json` to match your microservice name.
-- Update the files inside the `config` folder with values that match your microservice name.
-
-
-Last but not least, edit this README:
-
-- Update the Travis and Code Climate badges below.
-- Update references to `node-skeleton` to properly match your microservice description
-- Add details about what the microservice does
-- Delete all lines up to this point. The text below has details on how to start a microservice, and should remain correct for most cases. 
-
-
-# Node Skeleton Microservice
+# GFW Area Notifications Microservice
 
 [![Build Status](https://travis-ci.org/Vizzuality/node-skeleton.svg?branch=develop)](https://travis-ci.org/Vizzuality/node-skeleton)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bad57fc213fe29a1e72c/test_coverage)](https://codeclimate.com/github/Vizzuality/node-skeleton/test_coverage)
@@ -44,7 +22,7 @@ Execution using Docker requires:
 Start by cloning the repository from github to your execution environment
 
 ```
-git clone https://github.com/your-github-org/node-skeleton.git && cd node-skeleton
+git clone https://github.com/vissuality/gfw-api/gfw-area-notifications.git && cd gfw-area-notifications
 ```
 
 After that, follow one of the instructions below:
@@ -72,7 +50,7 @@ The endpoints provided by this microservice should now be available through Cont
 2 - Execute the following command to run Control tower:
 
 ```
-./node-skeleton.sh develop
+./gfw-area-notifications.sh develop
 ```
 
 The endpoints provided by this microservice should now be available through Control Tower's URL.
@@ -92,7 +70,7 @@ npm test
 
 Follow the instruction above for setting up the runtime environment for Docker execution, then run:
 ```
-./service.sh test
+./gfw-area-notifications.sh test
 ```
 
 ## Configuration

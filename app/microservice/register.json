@@ -1,11 +1,11 @@
 {
-	"name": "node-skeleton",
+	"name": "gfw-area-notifications",
 	"endpoints": [{
-		"path": "/v1/service/hi",
+		"path": "/v1/area-notifications/hi",
 		"method": "GET",
 		"redirect": {
 			"method": "GET",
-			"path": "/api/v1/service/hi"
+			"path": "/api/v1/area-notifications/hi"
 		}
 	}]
 }

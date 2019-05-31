@@ -1,6 +1,6 @@
 {
     "logger": {
-        "name": "node-skeleton",
+        "name": "gfw-area-notifications",
         "level": "warn",
         "toFile": false,
         "dirLogFile": null

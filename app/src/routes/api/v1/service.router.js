@@ -2,7 +2,7 @@ const Router = require('koa-router');
 
 
 const router = new Router({
-    prefix: '/service',
+    prefix: '/area-notifications',
 });
 
 class Service {

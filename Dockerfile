@@ -1,8 +1,8 @@
 FROM node:11.6-alpine
 MAINTAINER tiago.garcia@vizzuality.com
 
-ENV NAME node-skeleton
-ENV USER node-skeleton
+ENV NAME gfw-area-notifications
+ENV USER gfw-area-notifications
 
 RUN apk update && apk upgrade && \
     apk add --no-cache --update bash git openssh python alpine-sdk

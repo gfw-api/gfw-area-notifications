@@ -4,7 +4,7 @@ services:
     build: .
     ports:
       - "3005:3005"
-    container_name: node-skeleton-test
+    container_name: gfw-area-notifications-test
     env_file:
       - dev.env
     environment:

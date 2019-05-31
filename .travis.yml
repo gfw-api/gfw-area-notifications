@@ -13,8 +13,8 @@ env:
     - PORT=3005
     - LOGGER_TYPE=console
     - NODE_PATH=app/src
-    - CT_URL=http://mymychine:9000
-    - LOCAL_URL=http://mymychine:3005
+    - CT_URL=http://mymachine:9000
+    - LOCAL_URL=http://mymachine:3005
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
